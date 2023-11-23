@@ -1,0 +1,1 @@
+A simple Telegram ssh-notifier written in bash
