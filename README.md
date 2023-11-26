@@ -41,7 +41,7 @@ You can get these 2 variables by this way if you dont know how to:
   - Start a chat with BotFather and use the /newbot command to create a new bot.
   - Follow the instructions and finally after creating BotFather will then provide you with a BOT_TOKEN
   - Start chating with your bot for at least one messeage
-  - Use Telegram api service with your web browser at https://api.telegram.org/bot<YourBOTToken>/getUpdates
+  - Use Telegram api service with your web browser at https://api.telegram.org/botBOT_TOKEN/getUpdates
   - In JSON response look for "id" field which is your CHAT_ID
 
 # Usage
