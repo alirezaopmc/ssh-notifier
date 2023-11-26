@@ -36,6 +36,13 @@ TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN"
 TELEGRAM_CHAT_ID="YOUR_CHAT_ID"
 ```
 Replace YOUR_BOT_TOKEN and YOUR_CHAT_ID with your actual Telegram bot token and chat ID.
+You can get these 2 variables by this way if you dont know how to:
+  - Use the Telegram app and search for the @BotFather
+  - Start a chat with BotFather and use the /newbot command to create a new bot.
+  - Follow the instructions and finally after creating BotFather will then provide you with a BOT_TOKEN
+  - Start chating with your bot for at least one messeage
+  - Use Telegram api service with your web browser at https://api.telegram.org/botBOT_TOKEN/getUpdates
+  - In JSON response look for "id" field which is your CHAT_ID
 
 # Usage
 Once configured, the notifier will send a Telegram message whenever a user logs into the server via SSH.
